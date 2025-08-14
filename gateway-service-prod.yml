@@ -1,1 +1,8 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://prod-eureka-server:8761/eureka
 
